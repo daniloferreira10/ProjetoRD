@@ -6,9 +6,9 @@ body {
     background-color: whitesmoke;
 }
 main {
-    background-image: url(../images/fundo-g.jpg);
-    width: 300px;
-    height: 500px;
+    background: whitesmoke;
+    width: 387px;
+    height: 600px;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px 1px;
     margin: auto;
@@ -27,6 +27,7 @@ main > p {
 section {
     padding-top: 20px;
     margin: 10px;
+    text-align: center;
     display:inline-block;
 }
 
@@ -43,12 +44,11 @@ div.whats {
     display: inline-block;
     position: relative;
 
-    left: 2%;
-    top: -22%;
 }
 
 #whats {
     width: 50px;
+    border-radius: 50%;
     float: right;
     
 }
@@ -56,10 +56,6 @@ div.whats {
 div.instagram {
     display: inline-block;
     position: relative;
-
-    left: -59%;
-    top: -18%;
-
 }
 #instagram {
     width: 90px;
