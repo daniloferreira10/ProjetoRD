@@ -8,12 +8,11 @@ body {
 main {
     background: whitesmoke;
     width: 387px;
-    height: 600px;
+    height: 800px;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px 1px;
     margin: auto;
     padding: 15px 5px;
-    border-radius: 10px;
+    
 }
 
 main > p {
