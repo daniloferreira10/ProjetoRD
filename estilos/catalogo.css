@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    
+}
+
+header > a {
+    display:inline-block;
+    font-size:20px;
+    padding: 10px;
+    margin: 06px;
+    background-color: #ca9421;
+    color: white;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 5px;
+    text-decoration: none; 
+    
+}
+
+p#description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+p#preco {
+    font-family: cursive, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    color:red;
+
+}
+
+div#contatos {
+    text-align: center;
+    
+}
+
+.contatos-imagens {
+    width: 50px;
+    margin-right: 5px;
+}
+
+
+footer > a {
+    text-decoration: none;
+    color:black ;
+    text-align: center;
+}
+
+footer > a:hover {
+    color: #ca9421;
+    text-decoration: underline;
+
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    
+    margin: 25px 0;
+}
+
