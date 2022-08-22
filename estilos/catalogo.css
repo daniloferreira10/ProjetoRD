@@ -53,6 +53,10 @@ div#contatos {
     margin-right: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 footer > a {
     text-decoration: none;
